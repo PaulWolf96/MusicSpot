@@ -40,7 +40,6 @@
   <!--Aquí termina navbar-->
   <section>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-      <!--Consultar breakpoint de slider, desaparece placeholder al achicar pantalla-->
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -89,37 +88,31 @@
     </div>
   </section>
      <!--Aquí termina el slider-->
-
+      <br>
      <!--Primera Sección-->
-     <h1>Generos mas escuchados </h1>
+     <h1 class="h1 d-flex justify-content-center p-4">Generos mas escuchados </h1>
+     <br>
   <section>
-    <div>
-      <h2><a href="Generos\Rock\Bandas-rock.html"> Rock </a></h2>
-      <h2><a href="Generos\Pop\Bandas-pop.html"> Pop </a></h2>
-      <h2><a href="Generos\Blues\Bandas-blues.html"> Blues </a></h2>
-     
-    <!--<h2> Pop </h2>
-    <ul>
-      <li>Madonna</li>
-      <li>Michael Jackson</li>
-      <li>Bruno Mars</li>
-      <li> Britney Spears</li>
-    </ul>
-    <h2> Blues </h2>
-    <ul>
-    <li> B.B. King</li>
-    <li> Eric Clapton</li>
-    <li> Buddy guy </li>
-    <li> Nina Simone </li>
-   </ul>
-  -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col d-flex bg-dark justify-content-center">
+          <h2><a class="link-gen" href="Generos\Rock\Bandas-rock.html"> Rock </a></h2>
+        </div>
+        <div class="col d-flex bg-dark justify-content-center">
+          <h2><a class="link-gen" href="Generos\Pop\Bandas-pop.html"> Pop </a></h2>
+        </div>
+        <div class="col d-flex bg-dark justify-content-center">
+          <h2><a class="link-gen" href="Generos\Blues\Bandas-blues.html"> Blues </a></h2>
+        </div>
+      </div>
     </div>
   </section>
-  <!--Segunda sección Artistas nuevos-->
+  <br><br>
+  <!--Segunda Sección-->
   <section>
-    <h3>Ayudanos con nuestra libreria!</h3>
-    <p>Dejanos tus recomendaciones...</p>
     <div class="container">
+      <h2>Ayudanos con nuestra libreria!</h2>
+      <p><i>Dejanos tus recomendaciones...</i></p>
       <form>
         <div class="mb-3">
           <label for="exampleInputtext1" class="form-label">Genero</label>
@@ -127,7 +120,7 @@
         </div>
         <div class="mb-3">
           <label for="exampleInputtext2" class="form-label">Banda</label>
-          <input type="text" class="form-control" id="exampleInputtext2" placeholder="Ingrese el nombre de la banda">
+          <input type="text" class="form-control" id="exampleInputtext2" placeholder="Ingrese nombre de la banda">
         </div>
         <div class="mb-3">
           <label for="exampleInputtext3" class="form-label">Cancion</label>
@@ -137,79 +130,125 @@
           <label for="exampleInputtext4" class="form-label">Link</label>
           <input type="text" class="form-control" id="exampleInputtext4" placeholder="Ingrese enlace a youtube">
         </div>
-        
         <button type="submit" class="btn btn-primary"> <a href="Pagina_404.html" class="btn-submit"> Enviar Recomendación </a> </button> <!--Linkear pagina 404-->
       </form>
     </div>
-    
   </section>
   <br><br>
-  <!--Recomendacíon de la casa, sección 3-->
+  <!--Tercer Seccion-->
   <section>
-    <h3>Nuestras Recomendaciones</h3>
+    <h2 class="h2 text-bg-dark d-flex justify-content-center p-4">Nuestras Recomendaciones</h2><br>
     <div class="container-fluid">
       <div class="row align-items-start">
         <div class="col d-flex justify-content-center">
-          <h5>Recomendaciones de Facundo</h5>
-          <ul>
-            <li><a href="https://www.youtube.com/watch?v=8YqvOLfkwq8&ab_channel=Polyphia" target="_blank"> Polyphia - the worst </a></li>
-            <li><a href="https://www.youtube.com/watch?v=3KsuLy7zTWo&ab_channel=SumerianRecords" target="_blank"> CHON - Pitch Dark </a></li>
-            <li><a href="https://www.youtube.com/watch?v=OcgiudK-4Ew&ab_channel=OrigamiButton-Topic" target="_blank"> Origami Button - Penance Permission </a></li>
-            <li><a href="https://www.youtube.com/watch?v=JLk5dWzI8FE&ab_channel=Andr%C3%A9s-Topic" target="_blank"> Andrés - Self Aware </a></li>
-            <li><a href="https://www.youtube.com/watch?v=fQQxhyhdg-w&ab_channel=Periphery" target="_blank"> Periphery - Reptile </a></li>
-            <li><a href="https://www.youtube.com/watch?v=fHiGbolFFGw&ab_channel=Radiohead" target="_blank"> Radiohead - Paranoid Android </a></li>
-            <li><a href="https://www.youtube.com/watch?v=MiD_CP_Pios&list=RDGMEM6ijAnFTG9nX1G-kbWBUCJAVMMiD_CP_Pios&start_radio=1&ab_channel=Panic%21AtTheDisco" target="_blank"> Panic! At The Disco - Viva Las Vengeance </a></li>
-            <li><a href="https://www.youtube.com/watch?v=qFI_qVHTbao&ab_channel=JulietaRada-Topic" target="_blank"> Julieta Rada - Malisimo </a></li>
-            <li><a href="https://www.youtube.com/watch?v=tdSLuPje0Gc&ab_channel=gipsykingsVEVO" target="_blank"> Gipsy Kings - A Mi Manera (Comme D'Habitude) </a></li>
-            <li><a href="https://www.youtube.com/watch?v=BhMC23ll2Rk&ab_channel=DojaCat-Topic" target="_blank"> Doja Cat - Kiss Me More </a></li>
-          </ul>
+          <table class="table">
+            <thead class="table-light">
+              <tr>
+                <th scope="col" class="h3 d-flex justify-content-center bg-light border border-info rounded">Facundo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=8YqvOLfkwq8&ab_channel=Polyphia" class="link-reco" target="_blank"> Polyphia - the worst </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=3KsuLy7zTWo&ab_channel=SumerianRecords" class="link-reco" target="_blank"> CHON - Pitch Dark </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=OcgiudK-4Ew&ab_channel=OrigamiButton-Topic" class="link-reco" target="_blank"> Origami Button - Penance Permission </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=JLk5dWzI8FE&ab_channel=Andr%C3%A9s-Topic" class="link-reco" target="_blank"> Andrés - Self Aware </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=fQQxhyhdg-w&ab_channel=Periphery" class="link-reco" target="_blank"> Periphery - Reptile </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=fHiGbolFFGw&ab_channel=Radiohead" class="link-reco" target="_blank"> Radiohead - Paranoid Android </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=MiD_CP_Pios&list=RDGMEM6ijAnFTG9nX1G-kbWBUCJAVMMiD_CP_Pios&start_radio=1&ab_channel=Panic%21AtTheDisco" class="link-reco" target="_blank"> Panic! At The Disco - Viva Las Vengeance </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=qFI_qVHTbao&ab_channel=JulietaRada-Topic" class="link-reco" target="_blank"> Julieta Rada - Malisimo </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=tdSLuPje0Gc&ab_channel=gipsykingsVEVO" class="link-reco" target="_blank"> Gipsy Kings - A Mi Manera (Comme D'Habitude) </a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=BhMC23ll2Rk&ab_channel=DojaCat-Topic" class="link-reco" target="_blank"> Doja Cat - Kiss Me More </a></th>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="col d-flex justify-content-center">
-          <h5>Recomendaciones de Pablo</h5>
-          <ul>
-            <li> <a href="">Another Brick in the Wall - Pink Floyd</a> </li>
-            <li><a href="">To the Moon & Back - Savage Garden</a> </li>
-            <li><a href="">Colors - Black Pumas</a> </li>
-            <li><a href="">Sirius - Alan Parsons</a> </li>
-            <li><a href="">Disco Eterno - Soda Stereo</a> </li>
-            <li><a href="">Pasajera en Trance - Charly Garcia</a> </li>
-            <li><a href="">Cruz de Sal - La 25</a> </li>
-            <li><a href="">Thriller - Michael Jackson</a> </li>
-            <li><a href="">Sisters - Divididos</a> </li>
-            <li><a href="">Barro Tal Vez - Luis Alberto Spinetta</a> </li>
-          </ul>
+          <table class="table">
+            <thead class="table-light">
+              <tr>
+                <th scope="col" class="h3 d-flex justify-content-center bg-light border border-info rounded">Pablo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=5IpYOF4Hi6Q&ab_channel=Piccologollum" class="link-reco" target="_blank">Another Brick in the Wall - Pink Floyd</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=HCm6gRHINqA&ab_channel=SavageGardenVEVO" class="link-reco" target="_blank">To the Moon & Back - Savage Garden</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=0G383538qzQ&ab_channel=BlackPumasVEVO" class="link-reco" target="_blank">Colors - Black Pumas</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=wWHNUlhRuDM&ab_channel=toolrocky" class="link-reco" target="_blank">Sirius - Alan Parsons Project</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=5YAtLKLX_JI&ab_channel=SodaStereoVEVO" class="link-reco" target="_blank">Disco Eterno - Soda Stereo</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=5RGJxhwYnhc&ab_channel=CharlyGarciaVEVO" class="link-reco" target="_blank">Pasajera en Trance - Charly Garcia</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=ICwDcBLmZEc&ab_channel=PopArtDiscos" class="link-reco" target="_blank">Cruz de Sal - La 25</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=sOnqjkJTMaA&ab_channel=michaeljacksonVEVO" class="link-reco" target="_blank">Thriller - Michael Jackson</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=phgewDI_MaI&ab_channel=DIVIDIDOS" class="link-reco" target="_blank">Sisters - Divididos</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="https://www.youtube.com/watch?v=W47hOuQjDag&ab_channel=spinettaVEVO" class="link-reco" target="_blank">Barro Tal Vez - Luis Alberto Spinetta</a></th>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
   </section>
-  <br><br>
- 
-
-
-
+  <br><br> 
   <footer>
-    <div class="container-fluid text-bg-dark p-3">
+    <div class="container-fluid bg-dark p-0">
       <div class="row align-items-center">
         <!--Preguntar como colapsar todo el container-->
-        <div class="col-sm">
+        <div class="col-sm d-flex justify-content-center">
           <a href="index.html"><img src="Logo.jpeg"
             alt="" /></a>
         </div>
-        <div class="col-sm">
+        <div class="col-sm d-flex justify-content-center">
           <a href="Pagina_404.html"><img src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png"
-            width="100px" alt="" title="Instagram de MusicSpot" /></a>
+            width="100px" alt="" title="Instagram de MusicSpot"/><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" width="100px" alt="" title="WhatsApp de MusicSpot"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" width="100px" alt="" title="Twitter de MusicSpot"></a>
         </div>
         <div class="col-sm">
           <!--Navbar de Footer-->
-          <nav class="navbar text-bg-secondary">
+          <nav class="navbar bg-secondary">
             <div class="container-fluid justify-content-center">
               <a class="navbar-brand" href="index.html">Inicio</a>
             </div>
           </nav>
-          <nav class="navbar text-bg-secondary">
+          <nav class="navbar bg-secondary">
             <div class="container-fluid justify-content-center">
               <a class="navbar-brand" href="quienessomos.html">Quienes Somos</a>
             </div>
-          </nav><nav class="navbar text-bg-secondary">
+          </nav><nav class="navbar bg-secondary">
             <div class="container-fluid justify-content-center">
               <a class="navbar-brand" href="contacto.html">Contacto</a>
             </div>
@@ -226,6 +265,5 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
 </body>
-
 
 </html>
