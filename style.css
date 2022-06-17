@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1 {
+.h1-index {
     text-decoration: overline;
 }
 .btn-submit {
