@@ -19,3 +19,18 @@
 .link-gen {
     text-decoration: none;
 }
+.copy {
+    color: #fff;
+    font-size: 0.9rem;
+}
+.link-nav-foo {
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0 2rem;
+    transition: box-shadow 0.2s ease;
+}
+.link-nav-foo:hover {
+    box-shadow: 0 0 0.5em rgba(196, 186, 186);
+    color: #fff;
+}
