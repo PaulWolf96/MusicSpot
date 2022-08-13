@@ -1,110 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quienes Somos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quienes Somos</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header>
-    <nav class="navbar fixed-top navbar-expand-sm bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"> <img src="" alt="" />MusicSpot <img src="https://flyclipart.com/thumb2/music-logo-png-74180.png" alt="" width="30px"> </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-sm colorSwitch bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="" alt="" />MusicSpot
+            <img
+              src="https://flyclipart.com/thumb2/music-logo-png-74180.png"
+              alt=""
+              width="30px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="quienessomos.html"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="btn" id="switchOscuro" onclick="switchOscuro()">
+          Modo oscuro
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="quienessomos.html">Quienes Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="mt-6">
+        <h1 class="d-flex justify-content-center text-bg-dark p-2 colorSwitch">
+          ¿Quienes Somos?
+        </h1>
+      </div>
+      <div class="container-fluid colorSwitch bg-light py-4">
+        <p class="my-0">
+          MusicSpot es una comunidad-librería cuyo principal proposito es
+          descubrir, explorar y recomendar canciones y generos musicales en
+          general. Partimos de la necesidad de los creadores en compartir gustos
+          musicales en una interfaz visual e intuitiva para el usuario.
+          Esperamos que disfruten de la misma manera que nosotros disfrutamos
+          creandola.
+        </p>
+      </div>
+    </section>
+    <section class="pb-5 bg-light colorSwitch">
+      <div class="container-fluid colorSwitch bg-light">
+        <div class="row align-items-start">
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img src="Foto-Facundo.jpg" class="card-img-top" alt="..." />
+              <div class="card-body colorSwitch bg-light">
+                <h5 class="card-title colorSwitch bg-light">Facundo Jerez</h5>
+                <p class="card-text colorSwitch bg-light">
+                  Estudiante de ing. en electrónica, 26 años
+                </p>
+                <a href="https://www.instagram.com/facundo.jrz/" target="_blank"
+                  ><img
+                    src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png"
+                    title="Instagram de Facundo"
+                    alt=""
+                    width="30px"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="foto-pablo1.jpg"
+                height="485px"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body colorSwitch bg-light">
+                <h5 class="card-title colorSwitch bg-light">Pablo Lobo</h5>
+                <p class="card-text colorSwitch bg-light">
+                  Estudiante de Programación web, 25 años
+                </p>
+                <a
+                  href="https://www.instagram.com/pabloleonardo96/"
+                  target="_blank"
+                  ><img
+                    src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png"
+                    title="Instagram de Facundo"
+                    alt=""
+                    width="30px"
+                /></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <br><br><br><br>
-  <section>
-    <div class="container-fluid"> 
-      <h1 class="d-flex justify-content-center text-bg-dark p-2 rounded">¿Quienes Somos?</h1>
-      <br>
-      <p class="bg-light">MusicSpot es una comunidad-librería cuyo principal proposito es descubrir, explorar y recomendar canciones y generos musicales en general. Partimos de la necesidad de los creadores en compartir gustos musicales en una interfaz visual e intuitiva para el usuario. Esperamos que disfruten de la misma manera que nosotros disfrutamos creandola. </p>
-    </div>
-  </section>
-  <br>
-  <section>
-    <div class="container-fluid">
-      <div class="row align-items-start">
-        <div class="col d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
-            <img src="Foto-Facundo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Facundo Jerez</h5>
-              <p class="card-text">Estudiante de ing. en electrónica, 26 años </p>
-              <a href="https://www.instagram.com/facundo.jrz/" target="_blank"><img src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png" title="Instagram de Facundo" alt="" width="30px"></a>
+    </section>
+    <footer class="overflow-hidden">
+      <div class="container-fluid colorSwitch bg-dark text-light p-0">
+        <div class="row align-items-center">
+          <div class="col-sm d-flex justify-content-center p-2">
+            <a href="index.html"><img src="Logo.jpeg" alt="" /></a>
+          </div>
+          <div class="col-sm d-flex justify-content-center p-2">
+            <a href="Pagina_404.html"
+              ><img
+                src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png"
+                class="imgRedes"
+                alt=""
+                title="Instagram de MusicSpot" /> 
+                <img
+                src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
+              class="imgRedes"
+                alt=""
+                title="WhatsApp de MusicSpot" /> 
+                <img
+                src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png"
+                class="imgRedes"
+                alt=""
+                title="Twitter de MusicSpot"
+            /></a>
+          </div>
+          <div class="col-sm colorSwitch bg-dark">
+            <div class="col d-flex justify-content-center p-2">
+              <a
+                class="link-nav-foo border border-1 border-info text-decoration-none link-info fs-5 fw-semibold px-2"
+                href="index.html"
+                >Inicio</a
+              >
+            </div>
+            <div class="col d-flex justify-content-center p-2">
+              <a
+                class="link-nav-foo border border-1 border-info text-decoration-none link-info fs-5 fw-semibold px-2"
+                href="quienessomos.html"
+                >Quienes Somos</a
+              >
+            </div>
+            <div class="col d-flex justify-content-center p-2">
+              <a
+                class="link-nav-foo border border-1 border-info text-decoration-none link-info fs-5 fw-semibold px-2"
+                href="contacto.html"
+                >Contacto</a
+              >
             </div>
           </div>
-         
-        </div>
-        <div class="col d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
-            <img src="foto-pablo1.jpg" height="485px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Pablo Lobo</h5>
-              <p class="card-text">Estudiante de Programación web, 25 años</p>
-              <a href="https://www.instagram.com/pabloleonardo96/" target="_blank"><img src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png" title="Instagram de Facundo" alt="" width="30px"></a>
-            </div>
-          </div> 
-        </div>
-    </div>
-  </section>
-  <br><br><br>
-  <footer>
-    <div class="container-fluid bg-dark p-0">
-      <div class="row align-items-center">
-        <div class="col-sm d-flex justify-content-center p-2">
-          <a href="index.html"><img src="Logo.jpeg"
-            alt="" /></a>
-        </div>
-        <div class="col-sm d-flex justify-content-center p-2">
-          <a href="Pagina_404.html"><img src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png"
-            width="100px" alt="" title="Instagram de MusicSpot"/><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" width="100px" alt="" title="WhatsApp de MusicSpot"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" width="100px" alt="" title="Twitter de MusicSpot"></a>
-        </div>
-        <div class="col-sm">
-          <div class="col d-flex justify-content-center p-2">
-            <a class="navbar-brand link-nav-foo" href="index.html">Inicio</a>
-          </div>
-          <div class="col d-flex justify-content-center p-2">
-            <a class="navbar-brand link-nav-foo" href="quienessomos.html">Quienes Somos</a>
-          </div>
-          <div class="col d-flex justify-content-center p-2">
-            <a class="navbar-brand link-nav-foo" href="contacto.html">Contacto</a>
+          <div class="container d-flex justify-content-center">
+            <p class="copy">
+              Portions of this content are ©1998-2022 by individual
+              wikipedia.com contributors. Content available under a
+              <a href="Pagina_404.html">Creative Commons license</a>.
+            </p>
           </div>
         </div>
-        <div class="container d-flex justify-content-center">
-          <p class="copy">Portions of this content are ©1998-2022 by individual wikipedia.com contributors. Content available under a <a href="Pagina_404.html">Creative Commons license</a>.</p>
-        </div>
-    </div>
-  </div>
-  </footer>
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</body>
-
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

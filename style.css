@@ -20,17 +20,37 @@
     text-decoration: none;
 }
 .copy {
-    color: #fff;
     font-size: 0.9rem;
 }
 .link-nav-foo {
-    color: #fff;
-    border: 1px solid white;
     border-radius: 5px;
-    padding: 0 2rem;
     transition: box-shadow 0.2s ease;
 }
 .link-nav-foo:hover {
     box-shadow: 0 0 0.5em rgba(196, 186, 186);
     color: #fff;
+}
+.mt-6{
+    margin-top: 78px;
+} 
+.py-6 {
+    padding: 4rem 0;
+}
+
+.reco-usuario {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#mainBruno {
+    padding: auto 0;
+}
+.imgRedes{
+    width: 100px;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .imgRedes {
+        width: 55px;
+    }
+
 }

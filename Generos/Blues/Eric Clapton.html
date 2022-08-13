@@ -1,127 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Eric Clapton Discografía </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eric Clapton Discografía</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<link rel="stylesheet" href="../../style.css" />
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html"> <img src="" alt="" /> MusicSpot <img src="https://flyclipart.com/thumb2/music-logo-png-74180.png" alt="" width="30px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../../quienessomos.html">Quienes Somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../../contacto.html" >Contacto </a>
-                </li>
-              </ul>
-            </div>
+      <nav class="navbar fixed-top navbar-expand-sm colorSwitch bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html">
+            <img src="" alt="" /> MusicSpot
+            <img
+              src="https://flyclipart.com/thumb2/music-logo-png-74180.png"
+              alt=""
+              width="30px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../quienessomos.html"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../contacto.html">Contacto </a>
+              </li>
+            </ul>
           </div>
-        </nav>
-        <br><br><br>
-      </header>
-      <section>
+        </div>
+        <button class="btn" id="switchOscuro" onclick="switchOscuro()">
+          Modo oscuro
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="py-6 colorSwitch bg-light">
+        <hr />
         <div class="container">
           <div class="row align-items-start">
             <div class="col">
-              <h5> Eric Clapton (1970) </h5> <br> 
-              <p> <a href="https://www.youtube.com/watch?v=-rIRssMTiAE&list=OLAK5uy_kJC-O85Guq-AB1LLwDtcNA_xk4o1tvGvk&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://i.scdn.co/image/ab67616d0000b27357bbb091bed7541a11829e31" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>Eric Clapton (1970)</h5>
+              <br />
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=-rIRssMTiAE&list=OLAK5uy_kJC-O85Guq-AB1LLwDtcNA_xk4o1tvGvk&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://i.scdn.co/image/ab67616d0000b27357bbb091bed7541a11829e31"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> 461 Ocean Boulevard (1974) </h5> <br>
-              <p> <a href="https://www.youtube.com/watch?v=9EZlmqWmcqw&list=OLAK5uy_mRNqiK0VmtIOAB6WT9y9AkbOUwSa-0WiY&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/EricClapton461OceanBoulevar.jpg" title="Click en la imagen para escuchar album" width="250px"></a></p>   
-          
+              <h5>461 Ocean Boulevard (1974)</h5>
+              <br />
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=9EZlmqWmcqw&list=OLAK5uy_mRNqiK0VmtIOAB6WT9y9AkbOUwSa-0WiY&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/9/9f/EricClapton461OceanBoulevar.jpg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> There's One in Every Crowd (1975) </h5>  
-              <p> <a href="https://www.youtube.com/watch?v=tTKU5WDp4Cw&list=OLAK5uy_n-ImQSfft4MZtPvIYbRu5q6d3kggcHSdU&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/5/55/EricClaptonTheresOneInEveryCrowd.jpg" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>There's One in Every Crowd (1975)</h5>
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=tTKU5WDp4Cw&list=OLAK5uy_n-ImQSfft4MZtPvIYbRu5q6d3kggcHSdU&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/5/55/EricClaptonTheresOneInEveryCrowd.jpg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> No Reason to Cry (1976) </h5> <br> 
-              <p> <a href="https://www.youtube.com/watch?v=rtoIIRy1GoA&list=OLAK5uy_lci-G0pkv8YctgETzdS0sKcGMK-oXaBZE&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/b/be/EC_No_Reason_to_Cry.jpeg" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>No Reason to Cry (1976)</h5>
+              <br />
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=rtoIIRy1GoA&list=OLAK5uy_lci-G0pkv8YctgETzdS0sKcGMK-oXaBZE&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/b/be/EC_No_Reason_to_Cry.jpeg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> Slowhand (1977) </h5>  
-              <p> <a href="https://www.youtube.com/watch?v=8QYdIswhbY4&list=OLAK5uy_kZNn5D2zxz5xjTlftFJ6nz9nvte9aoJ1A&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/e/e7/EricClapton-Slowhand.jpg" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>Slowhand (1977)</h5>
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=8QYdIswhbY4&list=OLAK5uy_kZNn5D2zxz5xjTlftFJ6nz9nvte9aoJ1A&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/e/e7/EricClapton-Slowhand.jpg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> Backless (1978) </h5>  
-              <p> <a href="https://www.youtube.com/watch?v=wAF_lWkfZ1c&list=OLAK5uy_nsTrJOETJ7VuGIjLTUNkpbQO8JJPTNkqQ&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://i.discogs.com/cUTTpgxXK73TFFqUXXMPQkx6BB2usRtvcnfc92e6JGY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDEw/MzctMTIwNzk4OTY2/Ny5qcGVn.jpeg" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>Backless (1978)</h5>
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=wAF_lWkfZ1c&list=OLAK5uy_nsTrJOETJ7VuGIjLTUNkpbQO8JJPTNkqQ&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://i.discogs.com/cUTTpgxXK73TFFqUXXMPQkx6BB2usRtvcnfc92e6JGY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDEw/MzctMTIwNzk4OTY2/Ny5qcGVn.jpeg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> Another Ticket (1981) </h5>  
-              <p> <a href="https://www.youtube.com/watch?v=LLF-TiiD95Q&list=OLAK5uy_lOJY12JTARn6pgDbNKkY3OgLSg9YV_P-0&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/EricClaptonAnotherTicket.jpg" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>Another Ticket (1981)</h5>
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=LLF-TiiD95Q&list=OLAK5uy_lOJY12JTARn6pgDbNKkY3OgLSg9YV_P-0&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/b/b7/EricClaptonAnotherTicket.jpg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> Money and Cigarettes (1983) </h5>  
-              <p> <a href="https://www.youtube.com/watch?v=0tQUBU8bwkM&list=OLAK5uy_mlJaOJwtZUUkB-ZPvNEH6cBjnPTjZo8rM&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://i.discogs.com/Dn-Wr6LzpRcdeT3pNS89JwYmQ3c9Y8gEu6TmIfKgTzA/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MzQ0/MTMtMTQzNTQyMTM2/My03OTc4LmpwZWc.jpeg" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>Money and Cigarettes (1983)</h5>
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=0tQUBU8bwkM&list=OLAK5uy_mlJaOJwtZUUkB-ZPvNEH6cBjnPTjZo8rM&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://i.discogs.com/Dn-Wr6LzpRcdeT3pNS89JwYmQ3c9Y8gEu6TmIfKgTzA/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MzQ0/MTMtMTQzNTQyMTM2/My03OTc4LmpwZWc.jpeg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> Behind the Sun (1985) </h5>  
-              <p> <a href="https://www.youtube.com/watch?v=lENo4fSkQ4E&list=OLAK5uy_kjkp9bK-dHMe2EGdNgxS_V383zWvS75J4&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/d/db/BehindTheSun.jpg" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>Behind the Sun (1985)</h5>
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=lENo4fSkQ4E&list=OLAK5uy_kjkp9bK-dHMe2EGdNgxS_V383zWvS75J4&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/d/db/BehindTheSun.jpg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
             <div class="col">
-              <h5> August (1986) </h5>  
-              <p> <a href="https://www.youtube.com/watch?v=kP1AFDDJoeE&list=PLP59Fs_hB7C0RXKUWkLlSi_MNtKLoR6LN&ab_channel=EricClapton-Topic" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/a/ab/Eric_Clapton_August.jpg" title="Click en la imagen para escuchar album" width="250px"></a></p>
-          
+              <h5>August (1986)</h5>
+              <p>
+                <a
+                  href="https://www.youtube.com/watch?v=kP1AFDDJoeE&list=PLP59Fs_hB7C0RXKUWkLlSi_MNtKLoR6LN&ab_channel=EricClapton-Topic"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/a/ab/Eric_Clapton_August.jpg"
+                    title="Click en la imagen para escuchar album"
+                    width="250px"
+                /></a>
+              </p>
             </div>
-
           </div>
+        </div>
       </section>
-
-    <br><br> 
-    <footer>
-      <div class="container-fluid bg-dark p-0">
+    </main>
+    <footer class="overflow-hidden">
+      <div class="container-fluid colorSwitch bg-dark text-light p-0">
         <div class="row align-items-center">
           <div class="col-sm d-flex justify-content-center p-2">
-            <a href="../../index.html"><img src="../../Logo.jpeg"
-              alt="" /></a>
+            <a href="../../index.html"><img src="../../Logo.jpeg" alt="" /></a>
           </div>
           <div class="col-sm d-flex justify-content-center p-2">
-            <a href="../../Pagina_404.html"><img src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png"
-              width="100px" alt="" title="Instagram de MusicSpot"/><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" width="100px" alt="" title="WhatsApp de MusicSpot"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" width="100px" alt="" title="Twitter de MusicSpot"></a>
+            <a href="../../Pagina_404.html"
+              ><img
+              src="https://hearprojectva.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-50x50.png"
+              class="imgRedes"
+              alt=""
+              title="Instagram de MusicSpot" /> 
+              <img
+              src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
+            class="imgRedes"
+              alt=""
+              title="WhatsApp de MusicSpot" /> 
+              <img
+              src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png"
+              class="imgRedes"
+              alt=""
+              title="Twitter de MusicSpot"
+          /></a>
           </div>
-          <div class="col-sm">
+          <div class="col-sm colorSwitch bg-dark">
             <div class="col d-flex justify-content-center p-2">
-              <a class="navbar-brand link-nav-foo" href="../../index.html">Inicio</a>
+              <a
+                class="link-nav-foo border border-1 border-info text-decoration-none link-info fs-5 fw-semibold px-2"
+                href="../../index.html"
+                >Inicio</a
+              >
             </div>
             <div class="col d-flex justify-content-center p-2">
-              <a class="navbar-brand link-nav-foo" href="../../quienessomos.html">Quienes Somos</a>
+              <a
+                class="link-nav-foo border border-1 border-info text-decoration-none link-info fs-5 fw-semibold px-2"
+                href="../../quienessomos.html"
+                >Quienes Somos</a
+              >
             </div>
             <div class="col d-flex justify-content-center p-2">
-              <a class="navbar-brand link-nav-foo" href="../../contacto.html">Contacto</a>
+              <a
+                class="link-nav-foo border border-1 border-info text-decoration-none link-info fs-5 fw-semibold px-2"
+                href="../../contacto.html"
+                >Contacto</a
+              >
             </div>
           </div>
           <div class="container d-flex justify-content-center">
-            <p class="copy">Portions of this content are ©1998-2022 by individual wikipedia.com contributors. Content available under a <a href="../../Pagina_404.html">Creative Commons license</a>.</p>
+            <p class="copy">
+              Portions of this content are ©1998-2022 by individual
+              wikipedia.com contributors. Content available under a
+              <a href="../../Pagina_404.html">Creative Commons license</a>.
+            </p>
           </div>
+        </div>
       </div>
-    </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../js/app.js"></script>
+  </body>
 </html>
